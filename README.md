@@ -94,3 +94,26 @@ The program starts the variable number at 2. A for loop repeats while number is 
 
 Even numbers from 2 to 20:  
 2 4 6 8 10 12 14 16 18 20
+
+## Program 5 – Loop with Calculation
+
+**Textbook reference:**  
+Deitel & Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.11.
+
+**Problem description:**  
+Create a C program that uses a for loop to calculate and display the sum of all multiples of 5 from 5 to 50.
+
+**Concepts used:**  
+- for loop
+- integer variables
+- arithmetic
+- accumulator
+- loop control variable
+- printf()
+
+**How the program works:**  
+The program begins with the sum variable set to zero. A for loop starts the number variable at 5 and increases it by 5 after every repetition. During each repetition, the current value of number is added to sum. The loop stops after 50, and the final sum is displayed.
+
+**Example run:**
+
+The sum of multiples of 5 from 5 to 50 is 275
