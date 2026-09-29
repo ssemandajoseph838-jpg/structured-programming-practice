@@ -19,5 +19,5 @@ The program begins execution in the main function. It uses four printf statement
 **Example run:**
 
 Uganda Christian University  
-Structured Programming 
+Structured Programming  
 Learning C programming step by step.
