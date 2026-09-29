@@ -72,3 +72,25 @@ The program reads a student's mark from the user and stores it in a variable. It
 
 Enter student's mark: 73  
 The student passed.
+
+## Program 4 – Basic Loop
+
+**Textbook reference:**  
+Deitel & Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.7.
+
+**Problem description:**  
+Create a C program that uses a for loop to display all even numbers from 2 to 20.
+
+**Concepts used:**  
+- for loop
+- integer variable
+- printf()
+
+
+**How the program works:**  
+The program starts the variable number at 2. A for loop repeats while number is less than or equal to 20. After each repetition, 2 is added to number. During every repetition, the current value of number is displayed.
+
+**Example run:**
+
+Even numbers from 2 to 20:  
+2 4 6 8 10 12 14 16 18 20
