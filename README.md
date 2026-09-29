@@ -48,3 +48,27 @@ Enter mark for Subject 3: 81
 
 Total mark: 225  
 Average mark: 75.00
+
+## Program 3 – Decision
+
+**Textbook reference:**  
+Deitel & Deitel, C How to Program, 9th Edition, Chapter 2, Exercise 2.22.
+
+**Problem description:**  
+Create a C program that asks the user to enter a student's mark and determines whether the student passed or failed.
+
+**Concepts used:**  
+- integer variable
+- scanf()
+- printf()
+- if statement
+- else statement
+- relational operator >=
+
+**How the program works:**  
+The program reads a student's mark from the user and stores it in a variable. It then checks whether the mark is greater than or equal to 50. If the condition is true, the program displays that the student passed. Otherwise, it displays that the student failed.
+
+**Example run:**
+
+Enter student's mark: 73  
+The student passed.
