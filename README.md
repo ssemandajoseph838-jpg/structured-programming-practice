@@ -117,3 +117,38 @@ The program begins with the sum variable set to zero. A for loop starts the numb
 **Example run:**
 
 The sum of multiples of 5 from 5 to 50 is 275
+
+## Program 6 – Loop with User Input
+
+**Textbook reference:**  
+Deitel & Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.9.
+
+**Problem description:**  
+Create a C program that asks the user to enter the number of hours studied on each of five days. The program repeatedly collects and displays each value.
+
+**Concepts used:**  
+- for loop
+- scanf()
+- printf()
+- integer variables
+  
+
+**How the program works:**  
+The program uses a for loop that repeats five times. During each repetition, the user enters the number of hours studied for that day using scanf(). The program then displays the value entered before continuing to the next day.
+
+**Example run:**
+
+Enter study hours for day 1: 2  
+Day 1 study hours: 2  
+
+Enter study hours for day 2: 3  
+Day 2 study hours: 3  
+
+Enter study hours for day 3: 1  
+Day 3 study hours: 1  
+
+Enter study hours for day 4: 4  
+Day 4 study hours: 4  
+
+Enter study hours for day 5: 2  
+Day 5 study hours: 2
