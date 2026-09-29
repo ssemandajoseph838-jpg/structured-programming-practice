@@ -192,3 +192,46 @@ Student 5 passed.
 
 Total passed: 3  
 Total failed: 2
+
+## Program 8 – Interactive Console Program
+
+**Textbook reference:**  
+Deitel & Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.28.
+
+**Problem description:**  
+Create a menu-driven calculator that allows the user to add, subtract, or multiply two numbers. The menu continues to appear until the user chooses the Exit option.
+
+**Concepts used:**  
+- do-while loop
+- switch statement
+- if statement
+- scanf()
+- printf()
+- arithmetic operators
+- menu selection
+- exit condition
+
+**How the program works:**  
+The program displays a calculator menu inside a do-while loop. The user selects an option. If the user selects an arithmetic operation, two numbers are entered. A switch statement determines which calculation should be performed. After displaying the result, the menu appears again. The program continues until the user selects option 4 to exit.
+
+**Example run:**
+
+SIMPLE CALCULATOR  
+1. Add  
+2. Subtract  
+3. Multiply  
+4. Exit  
+Choose an option: 1  
+
+Enter first number: 15  
+Enter second number: 8  
+Result: 23.00  
+
+SIMPLE CALCULATOR  
+1. Add  
+2. Subtract  
+3. Multiply  
+4. Exit  
+Choose an option: 4  
+
+Calculator closed.
