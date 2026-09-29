@@ -152,3 +152,43 @@ Day 4 study hours: 4
 
 Enter study hours for day 5: 2  
 Day 5 study hours: 2
+
+## Program 7 – Loop with Decision
+
+**Textbook reference:**  
+Deitel & Deitel, C How to Program, 9th Edition, Chapter 3, Exercise 3.23.
+
+**Problem description:**  
+Create a C program that asks the user to enter marks for five students. During each repetition, the program determines whether the student passed or failed. It also counts the total number of passes and failures.
+
+**Concepts used:**  
+- for loop
+- scanf()
+- if/else
+- counters
+- integer variables
+- relational operator >=
+- increment operator
+
+**How the program works:**  
+The program uses a for loop to process five students. During each repetition, the user enters a student's mark. An if/else statement checks whether the mark is at least 50. If it is, the pass counter increases by one. Otherwise, the fail counter increases by one. After all five students have been processed, the program displays the total numbers of passes and failures.
+
+**Example run:**
+
+Enter mark for student 1: 74  
+Student 1 passed.  
+
+Enter mark for student 2: 43  
+Student 2 failed.  
+
+Enter mark for student 3: 58  
+Student 3 passed.  
+
+Enter mark for student 4: 39  
+Student 4 failed.  
+
+Enter mark for student 5: 82  
+Student 5 passed.  
+
+Total passed: 3  
+Total failed: 2
